@@ -6,21 +6,21 @@ const jeopardyCategories =  [
         genre: "WHO",
         questions: [
             {
-                question: "Who worte Harry Potter?",
-                answers: ["JK Rowling", "JRR Tolkien"],
-                correct: "JK Rowling",
+                question: "Who stars in the 2002 movie Sweet Home Alabama?",
+                answers: ["Reese Witherspoon", "Kate Hudson"],
+                correct: "Reese Witherspoon",
                 level: "easy"
             },
             {
-                question: "Who Was born on Krypton?",
-                answers: ["Aquaman", "Superman"],
-                correct: "Superman",
+                question: "Who stars opposite of Lindsay Lohan in the 2006 movie Just My Luck?",
+                answers: ["Chris Evans", "Chris Pine"],
+                correct: "Chris Pine",
                 level: "medium"
             },
             {
-                question: "Who designed the first car?",
-                answers: ["Karl Benz", "Henry Ford"],
-                correct: "Henry Ford",
+                question: "Who stars opposite of Ashton Kutcher in the 2003 movie Just Married?",
+                answers: ["Zoe Saldaña", "Brittany Murphy"],
+                correct: "Brittany Murphy",
                 level: "hard"
             }
         ]
@@ -29,21 +29,21 @@ const jeopardyCategories =  [
         genre: "WHERE",
         questions: [
             {
-                question: "Where is Buckingham Plaace?",
-                answers: ["Richmond", "London"],
-                correct: "London",
+                question: "Where does most of the movie Enchanted Take place?",
+                answers: ["New York", "Andalasia"],
+                correct: "New York",
                 level: "easy"
             },
             {
-                question: "Where is the Colosseum?",
-                answers: ["Rome", "Milan"],
-                correct: "Rome",
+                question: "Where does the movie The Princess Diaries take place?",
+                answers: ["Genovia", "San Francisco"],
+                correct: "San Francisco",
                 level: "medium"
             },
             {
-                question: "Where is Mount Kilamanjaro?",
-                answers: ["Zimbabwe", "Tanzania"],
-                correct: "Tanzania",
+                question: "In the movie What Happens In Vegas Where does the majority of the movie Take place",
+                answers: ["New York", "Las Vegas"],
+                correct: "New York",
                 level: "hard"
             }
         ]
@@ -52,21 +52,21 @@ const jeopardyCategories =  [
         genre: "WHEN",
         questions: [
             {
-                question: "When is Christmas?",
-                answers: ["30th Dec", "24th/25th Dec"],
-                correct: "24th/25th Dec",
+                question: "In the 2004 movie 13 going on 30 what year was it at Jenna's 13th birthday party?",
+                answers: ["1985", "1987"],
+                correct: "1987",
                 level: "easy"
             },
             {
-                question: "When was JFk Shot?",
-                answers: ["1963", "1961"],
-                correct: "1963",
+                question: "In the movies Bride Wars, Emma and Olivia Have their wedding accidently scheduled on the same day, what day was it?",
+                answers: ["June 27th", "June 6th"],
+                correct: "June 6th",
                 level: "medium"
             },
             {
-                question: "When was WW2?",
-                answers: ["1932", "1941"],
-                correct: "1941",
+                question: "Over what holiday does the 2005 movie Just Friends take place",
+                answers: ["Christmas", "Thanksgivings"],
+                correct: "Christmas",
                 level: "hard"
             }
         ]
@@ -75,22 +75,22 @@ const jeopardyCategories =  [
         genre: "WHAT",
         questions: [
             {
-                question: " What is the capital of Saudi Arabia?",
-                answers: ["Jeddah", "Riyadh"],
-                correct: "Riyadh",
-                level: "hard"
+                question: "What school does Viola attend as her brother Sebastian in the movie She's the Man?",
+                answers: ["Cornwall Prep", "Illyria Prep"],
+                correct: "Illyria Prep",
+                level: "easy"
             },
             {
-                question: "What do Koalas eat?",
-                answers: ["Straw", "Eucalypt"],
-                correct: "Eucalypt",
+                question: "In the movie John Tucker Must Die, John dates girls from different cliques to hide his multiple realtionships, what cliques does Beth Belong to?",
+                answers: ["Overachivers", "Vegan Activist"],
+                correct: "Vegan Activist",
                 level: "medium"
             },
             {
-                question: "What is kg short for?",
-                answers: ["Kilojoule", "Kilogram"],
-                correct: "Kilogram",
-                level: "easy"
+                question: "In the movie How To Lose A Guy In 10 Days, What magazine does Andie work at?",
+                answers: ["Composure Magazine", "Poised Magazine"],
+                correct: "Composure Magazine",
+                level: "hard"
             }
         ]
     },
@@ -98,21 +98,21 @@ const jeopardyCategories =  [
         genre: "HOW MANY",
         questions: [
             {
-                question: "How many players in a football team?",
-                answers: ["15", "11"],
-                correct: "11",
+                question: "How many ppossible men could have been Sophie's father in the movie Mamma Mia",
+                answers: ["4", "3"],
+                correct: "3",
                 level: "easy"
             },
             {
-                question: "How many seconds in an hour?",
-                answers: ["36000", "3600"],
-                correct: "3600",
+                question: "In the movie Two Can Play That Game, Shante has a plan to get her man back in line, how many days does it consist of?",
+                answers: ["10 Day Plan", "5 Day Plan"],
+                correct: "10 Day Plan",
                 level: "medium"
             },
             {
-                question: "How many people live in China?",
-                answers: ["1.1 bil", "1.4 bil"],
-                correct: "1.4 bil",
+                question: "In the movie The Proposal how many years in prison will Margaret get if the marriage is found to be fraudulent?",
+                answers: ["3 Years", "5 years"],
+                correct: "5 years",
                 level: "hard"
             }
         ]
@@ -163,7 +163,7 @@ jeopardyCategories.forEach(category => addCategory(category))
 function flipCard() {
     this.innerHTML = "";
     this.style.fontSize = "15px";
-    this.style.lineHeight = "30px";
+    this.style.lineHeight = "50px";
 
     const textDisplay = document.createElement('div');
 

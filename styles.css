@@ -2,14 +2,28 @@
 
 body {
     align-items: center;
-    background-color: rgb(46, 46, 46);
-    color: white;
+    background-color: rgb(201,229,254);
+    color: rgb(242, 249, 254);
     display: flex;
     flex-direction: column;
     font-family: 'Anton', sans-serif;
     justify-content: center;
     margin: 0;
     padding: 0;
+    width: 1440px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: rgb(0,69,139);
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 5px ;
 }
 
 #game {
@@ -32,12 +46,46 @@ body {
     width: 160px;
 }
 
+.card-text {
+    background-color: rgb(26, 26, 255);
+    border: 10px solid black;
+    font-size: 35px;
+    height: 450px;
+    padding: 50px;
+    position: fixed;
+    left: 185px;
+    top: 125px;
+    width: 950px;
+}
+
 .first-button {
-    background-color: rgb(24, 171 ,24);
+    background-color: rgb(226,240,254);
+    color: rgb(0, 12, 32);
+    border: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    padding: 10px 25px;
+    position: fixed;
+    top: 490px;
+    left: 350px;
 }
 
 .second-button {
-    background-color: rgb(190, 57, 37);
+    background-color: rgb(226,240,254);
+    color: rgb(0, 12, 32);
+    border: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    padding: 10px 25px;
+    position: fixed;
+    top: 490px;
+    left: 950px;
+}
+
+.first-button:hover,
+.second-button:hover {
+    background-color: rgb(0, 12, 32);
+    color: rgb(226,240,254);
 }
 
 .genre-title {
@@ -49,9 +97,13 @@ body {
 }
 
 .correct-answer {
-    background-color: rgb(186, 186, 24);
+    background-color: rgb(0, 139, 0);
 }
 
 .wrong-answer {
-    background-color: rgb(221, 64, 56);
+    background-color: rgb(139, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
 }

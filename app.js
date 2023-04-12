@@ -98,7 +98,7 @@ const jeopardyCategories =  [
         genre: "HOW MANY",
         questions: [
             {
-                question: "How many ppossible men could have been Sophie's father in the movie Mamma Mia",
+                question: "How many possible men could have been Sophie's father in the movie Mamma Mia",
                 answers: ["4", "3"],
                 correct: "3",
                 level: "easy"
